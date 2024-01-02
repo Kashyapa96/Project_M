@@ -2,7 +2,6 @@ import React from 'react';
 import './offline.css'; // Import your CSS file for styling
 import logoImage from '../images/logo.jpg';
 import Node from '../images/nodes.png';
-import { Link } from 'react-router-dom';
 function Offline() {
   return (
     <div className="container1">
@@ -33,9 +32,7 @@ function Offline() {
             </div>
         </div>
         <div className="alignButton">
-        <Link to="/test">
           <button className="searchButton">Search</button>
-        </Link>
         </div>
       </div>
 
